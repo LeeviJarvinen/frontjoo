@@ -7,7 +7,7 @@ import Register from "./components/Register";
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
+      {/* <Switch> */}
         <Route exact path="/">
           <Login/>
         </Route>
@@ -18,7 +18,7 @@ function App() {
           <Navbar/>
           <Dashboard/>
         </Route>
-      </Switch>
+      {/* </Switch> */}
     </BrowserRouter>
   );
 }
